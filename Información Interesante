@@ -1,0 +1,6 @@
+Vmware Tools ...
+
+sudo pacman -S open-vm-tools
+systemctl enable vmtoolsd.service 
+systemctl start vmtoolsd.service 
+sudo reboot
