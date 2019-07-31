@@ -4,3 +4,6 @@ sudo pacman -S open-vm-tools
 systemctl enable vmtoolsd.service 
 systemctl start vmtoolsd.service 
 sudo reboot
+
+Yaourt ... 
+sudo pacman -U package-query-1.9-3-x86_64.pkg.tar.xz yaourt-1.9-1-any.pkg.tar.xz 
