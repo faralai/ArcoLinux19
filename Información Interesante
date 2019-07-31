@@ -1,3 +1,7 @@
+Pacman -Qm (paquetes instalados por AUR)
+yay -S yay --noconfirm --builddir /home/faralai/Escritorio/  (instalar un paquete y guardar sources en Escritorio)
+
+
 Reparar Iconos en menú inicio que no salen
 cinnamon --replace 
 sudo reboot
