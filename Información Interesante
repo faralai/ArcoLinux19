@@ -1,3 +1,8 @@
+Reparar Iconos en menú inicio que no salen
+cinnamon --replace 
+sudo reboot
+
+
 Vmware Tools ...
 
 sudo pacman -S open-vm-tools
