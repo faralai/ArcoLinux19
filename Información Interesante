@@ -16,3 +16,84 @@ sudo reboot
 
 Yaourt ... 
 sudo pacman -U package-query-1.9-3-x86_64.pkg.tar.xz yaourt-1.9-1-any.pkg.tar.xz 
+
+
+sudo pacman -S open-vm-tools
+systemctl enable vmtoolsd.service 
+systemctl start vmtoolsd.service 
+sudo reboot
+ls
+cd Escritorio/
+sudo pacman -U yaourt-1.9-1-any.pkg.tar.xz 
+sudo pacman -U package-query-1.9-3-x86_64.pkg.tar.xz yaourt-1.9-1-any.pkg.tar.xz 
+sudo pacman -Qm
+cinnamon --replace 
+yay
+yay -S yay --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S downgrade --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S discord --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S typora --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S grub-customizer --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S rar --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S seafile-client --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S woeusb --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S conky-lua-archers --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S conky-lua-archers --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S package-query --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S android-sdk-platform-tools --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S sublime-text2  --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -Ss sublime  --noconfirm --builddir /home/faralai/Escritorio/ 
+cinnamon --replace 
+yay
+sudo pacman -Q
+sudo pacman -Qim
+yay --help
+yay -S yay --noconfirm --builddir /home/faralai/Escritorio/ 
+ls
+sudo pacman -Qm
+yay -S timeshift --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S teamviewer --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S buttercup-desktop --noconfirm --builddir /home/faralai/Escritorio/ 
+sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+yay -S telegram-desktop-bin --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -Ss waterfox --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S waterfox-bin waterfox-alpha-bin --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S anydesk --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S anydesk --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -Rns cups
+yay -Rns cups-pdf gutenprint cups
+yay -Rns arandr
+yay -Rns atom
+yay -Rns chromium
+yay -Rns evolution
+yay -Rns firefox
+yay -Rns geary
+yay -Ss geary
+yay -Rns geany
+yay -Rns htop
+yay -Rns inkscape
+yay -Rns meld
+yay -Rns gimp
+yay -Rns qbittorrent
+yay -Rns stoken-gui
+yay -ss stoken
+yay -Rns stoken
+yay -Rns libstoken
+yay -R stoken
+df -h
+yay -R stoken
+yay -Rns vim
+yay -Rns vivaldi
+yay -Rns vivaldi*
+yay -Rns vivaldi-codecs-ffmpeg-extra-bin vivaldi
+yay -Ss beer --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -Ss kee --noconfirm --builddir /home/faralai/Escritorio/ 
+df -h
+yay -S keepassxc --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -Ss ffmpeg-compat --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S ffmpeg-compat-57 --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S spotify --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S spotify --noconfirm --builddir /home/faralai/Seafile/Linux/AUR/
+yay -S spotify --noconfirm --builddir /home/faralai/Seafile/Linux_19/AUR/
+plank --preferences
