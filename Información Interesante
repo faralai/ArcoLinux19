@@ -67,6 +67,8 @@ yay -Rns qbittorrent
 yay -Rns stoken-gui
 yay -Rns vim
 yay -Rns vivaldi-codecs-ffmpeg-extra-bin vivaldi
+yay -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
+
 
 
 
