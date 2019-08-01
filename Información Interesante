@@ -1,34 +1,32 @@
-Configuracinó de Plank
+**Configuracinó de Plank**
 plank --preferences
 
-Pacman -Qm (paquetes instalados por AUR)
+**Pacman -Qm (paquetes instalados por AUR)**
 yay -S yay --noconfirm --builddir /home/faralai/Escritorio/  (instalar un paquete y guardar sources en Escritorio)
 
-
-Reparar Iconos en menú inicio que no salen
+**Reparar Iconos en menú inicio que no salen**
 cinnamon --replace 
 sudo reboot
 
-
-Vmware Tools ...
+**Vmware Tools ...**
 
 sudo pacman -S open-vm-tools
 systemctl enable vmtoolsd.service 
 systemctl start vmtoolsd.service 
 sudo reboot
 
-Yaourt ... 
+**Yaourt ... **
 sudo pacman -U package-query-1.9-3-x86_64.pkg.tar.xz yaourt-1.9-1-any.pkg.tar.xz 
 
-Comando para generar paquete AUR
+**Comando para generar paquete AUR**
 yay -S yay --noconfirm --builddir /home/faralai/Escritorio/ 
 
-Instalar Kernel LTS
+**Instalar Kernel LTS**
 
 sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-Cosas a Instalar dependientes de AUR
+**Cosas a Instalar dependientes de AUR**
 yay -S downgrade --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S discord --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S typora --noconfirm --builddir /home/faralai/Escritorio/ 
@@ -51,7 +49,7 @@ yay -S keepassxc --noconfirm --builddir /home/faralai/Escritorio/
 yay -S ffmpeg-compat-57 --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S spotify --noconfirm --builddir /home/faralai/Escritorio/ 
 
-Cosas a Borrar
+**Cosas a Borrar**
 yay -Rns cups-pdf gutenprint cups
 yay -Rns arandr
 yay -Rns atom
