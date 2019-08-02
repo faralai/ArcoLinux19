@@ -27,26 +27,26 @@ sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 **Cosas a Instalar dependientes de AUR**
-yay -S downgrade --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S discord --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S typora --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S grub-customizer --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S rar --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S seafile-client --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S woeusb --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S conky-lua-archers --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S package-query --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S android-sdk-platform-tools --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S sublime-text2  --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S timeshift --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S teamviewer --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S buttercup-desktop --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S telegram-desktop-bin --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S waterfox-bin waterfox-alpha-bin --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S anydesk --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S keepassxc --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S ffmpeg-compat-57 --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S spotify --noconfirm --builddir /home/faralai/Escritorio/ 
+yay -S downgrade --noconfirm --builddir ~/Escritorio/ 
+#yay -S discord --noconfirm --builddir ~/Escritorio/ 
+yay -S typora --noconfirm --builddir ~/Escritorio/ 
+yay -S grub-customizer --noconfirm --builddir ~/Escritorio/ 
+yay -S rar --noconfirm --builddir ~/Escritorio/ 
+yay -S seafile-client --noconfirm --builddir ~/Escritorio/  
+yay -S woeusb --noconfirm --builddir ~/Escritorio/ 
+yay -S conky-lua-archers --noconfirm --builddir ~/Escritorio/  
+yay -S package-query --noconfirm --builddir ~/Escritorio/  
+yay -S android-sdk-platform-tools --noconfirm --builddir ~/Escritorio/ 
+yay -S sublime-text2  --noconfirm --builddir ~/Escritorio/  
+yay -S timeshift --noconfirm --builddir ~/Escritorio/ 
+yay -S teamviewer --noconfirm --builddir ~/Escritorio/  
+yay -S buttercup-desktop --noconfirm --builddir ~/Escritorio/  
+yay -S telegram-desktop-bin --noconfirm --builddir ~/Escritorio/ 
+yay -S waterfox-bin waterfox-alpha-bin --noconfirm --builddir ~/Escritorio/  
+yay -S anydesk --noconfirm --builddir ~/Escritorio/ 
+yay -S keepassxc --noconfirm --builddir ~/Escritorio/ 
+yay -S ffmpeg-compat-57 --noconfirm --builddir ~/Escritorio/  
+yay -S spotify --noconfirm --builddir ~/Escritorio/ 
 
 **Cosas a Borrar**
 yay -Rns cups-pdf gutenprint cups --noconfirm
