@@ -65,6 +65,8 @@ yay -Rns qbittorrent
 yay -Rns vim
 yay -Rns vivaldi-codecs-ffmpeg-extra-bin vivaldi
 yay -Rns virtualbox-guest-utils virtualbox-guest-modules-arch
+yay -Rns urxvt-perls rxvt-unicode rxvt-unicode-terminfo urxvt-resize-font-git
+yay -Rns termite
 
 
 
