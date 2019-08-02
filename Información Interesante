@@ -64,7 +64,7 @@ yay -Rns qbittorrent --noconfirm
 yay -Rns vim --noconfirm
 yay -Rns vivaldi-codecs-ffmpeg-extra-bin vivaldi --noconfirm
 yay -Rns virtualbox-guest-utils virtualbox-guest-modules-arch --noconfirm
-yay -Rns urxvt-perls rxvt-unicode rxvt-unicode-terminfo urxvt-resize-font-git --noconfirm
+yay -Rns xterm urxvt-perls rxvt-unicode rxvt-unicode-terminfo urxvt-resize-font-git --noconfirm
 yay -Rns termite --noconfirm
 
 
