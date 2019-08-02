@@ -12,7 +12,7 @@ yay -S package-query --noconfirm --builddir ~/Escritorio/
 yay -S android-sdk-platform-tools --noconfirm --builddir ~/Escritorio/ 
 yay -S sublime-text2  --noconfirm --builddir ~/Escritorio/  
 yay -S timeshift --noconfirm --builddir ~/Escritorio/ 
-yay -S teamviewer --noconfirm --builddir ~/Escritorio/  
+#yay -S teamviewer --noconfirm --builddir ~/Escritorio/  
 yay -S buttercup-desktop --noconfirm --builddir ~/Escritorio/  
 yay -S telegram-desktop-bin --noconfirm --builddir ~/Escritorio/ 
 yay -S waterfox-bin waterfox-alpha-bin --noconfirm --builddir ~/Escritorio/  
