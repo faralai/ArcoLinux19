@@ -35,7 +35,6 @@ yay -S rar --noconfirm --builddir /home/faralai/Escritorio/
 yay -S seafile-client --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S woeusb --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S conky-lua-archers --noconfirm --builddir /home/faralai/Escritorio/ 
-yay -S conky-lua-archers --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S package-query --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S android-sdk-platform-tools --noconfirm --builddir /home/faralai/Escritorio/ 
 yay -S sublime-text2  --noconfirm --builddir /home/faralai/Escritorio/ 
