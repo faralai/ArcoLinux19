@@ -26,6 +26,10 @@ yay -S yay --noconfirm --builddir /home/faralai/Escritorio/
 sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+** Actualizar**
+sudo pacman -Syu ; yaourt -Sua --noconfirm  --export /home/faralai/Escritorio
+
+
 **Cosas a Instalar dependientes de AUR**
 yay -S downgrade --noconfirm --builddir ~/Escritorio/ 
 #yay -S discord --noconfirm --builddir ~/Escritorio/ 
