@@ -5,7 +5,7 @@ yay -S downgrade --noconfirm --builddir ~/Escritorio/
 yay -S typora --noconfirm --builddir ~/Escritorio/ 
 #yay -S grub-customizer --noconfirm --builddir ~/Escritorio/ 
 #yay -S rar --noconfirm --builddir ~/Escritorio/ 
-yay -S seafile-client --noconfirm --builddir ~/Escritorio/  
+yay -S seafile-client --mflags --skipinteg  --noconfirm --builddir /home/usuario/Escritorio/
 yay -S woeusb --noconfirm --builddir ~/Escritorio/ 
 yay -S conky-lua-archers --noconfirm --builddir ~/Escritorio/  
 yay -S package-query --noconfirm --builddir ~/Escritorio/  
