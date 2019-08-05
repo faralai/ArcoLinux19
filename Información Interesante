@@ -31,6 +31,8 @@ sudo pacman -Syu ; yaourt -Sua --noconfirm  --export /home/faralai/Escritorio
 
 ** Instalar paquete omitiendo comprobaciones de integridad **
 yay -S --mflags --skipinteg
+yay -S paquete --mflags --skipinteg  --noconfirm --builddir /home/usuario/Escritorio/
+
 
 **Cosas a Instalar dependientes de AUR**
 yay -S downgrade --noconfirm --builddir ~/Escritorio/ 
