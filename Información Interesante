@@ -21,6 +21,11 @@ sudo reboot
 **Yaourt ... **
 sudo pacman -U package-query-1.9-3-x86_64.pkg.tar.xz yaourt-1.9-1-any.pkg.tar.xz 
 
+
+** Borrar paquetes huerfanos YAY **
+yay -Yc
+
+
 **Comando para generar paquete AUR**
 yay -S yay --noconfirm --builddir /home/faralai/Escritorio/ 
 
