@@ -1,3 +1,6 @@
+**Clonar Repositorio**
+git clone https://github.com/faralai/ArcoLinux19
+
 **Configuracinó de Plank**
 plank --preferences
 
