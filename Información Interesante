@@ -29,6 +29,8 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ** Actualizar**
 sudo pacman -Syu ; yaourt -Sua --noconfirm  --export /home/faralai/Escritorio
 
+** Instalar paquete omitiendo comprobaciones de integridad **
+yay -S --mflags --skipinteg
 
 **Cosas a Instalar dependientes de AUR**
 yay -S downgrade --noconfirm --builddir ~/Escritorio/ 
